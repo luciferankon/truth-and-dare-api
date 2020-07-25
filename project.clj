@@ -6,7 +6,9 @@
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [ring/ring-core "1.2.1"]
                  [ring/ring-jetty-adapter "1.2.1"]
-                 [ring/ring-json "0.5.0"]]
+                 [ring/ring-json "0.5.0"]
+                 [ring-cors "0.1.13"]
+                 [org.clojure/data.json "1.0.0"]]
   :main truth-and-dare-api.server
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
